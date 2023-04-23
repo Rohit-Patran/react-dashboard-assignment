@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+#heading{
+    color : rgba(0, 0, 0, 0.8);
+    font-size: 1.5vw;
+}
+
+.title p{
+    color : rgba(0, 0, 0, 0.5);
+    font-weight : 500
+}
+
+#left{
+    color : rgba(0, 0, 0, 0.8);
+    text-align: right;
+}
+#assignment-details{
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-left: 12vw
+}
+
+.details-container{
+    display: flex;
+    justify-content: space-evenly;
+    width:60vw;
+    border: solid 0.1vw dodgerblue;
+    margin-left: 11vw;
+    border-radius: 1vw;
+    background-color: white;
+    align-items: center;
+}
+
+#date-timing{
+    display: flex;
+}
+#date-timing img{
+    width : 2vw;
+    margin-right: 1vw;
+}
+
+#border{
+    border-right: solid rgba(0, 0, 0, 0.5) 0.15vw;
+    height: 15vh;
+}
+
+#bold-title{
+    font-size: 2vw;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}

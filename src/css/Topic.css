@@ -1,0 +1,61 @@
+.topic{
+    width: 80vw;
+}
+
+.topic .heading h1{
+    color: rgba(0 , 0 , 0 , 0.8);
+}
+
+.topic .heading p{
+    color: rgba(0 , 0 , 0 , 0.5);
+}
+
+#feedback{
+    color: dodgerblue;
+    font-weight : bold;
+    text-align: right;
+}
+
+.topic-headings{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topic-headings span{
+    display: flex;
+    align-items: center;
+}
+
+.topic-headings span span{
+   margin-left: 0.5vw;
+}
+
+#session{
+    background-color: white;
+    padding: 0.5vh 1vw;
+    border-top-right-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+    border-top: solid dodgerblue 0.1vw;
+    border-left: solid dodgerblue 0.1vw;
+    border-right: solid dodgerblue 0.1vw;
+}
+
+.topic-content-details{
+    background-color: white;
+    margin-left: 4.7vw;
+    margin-top: 0;
+    padding: 1vw 2vw;
+    border: solid dodgerblue 0.1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+
+#join-live{
+    background-color: rgba(0 , 0 , 0 , 0.2);
+    padding : 0.5vw 1vw;
+    border-radius: 2vw;
+    color: rgba(0 , 0 , 0 , 0.8);
+    font-weight: 500;
+}
+

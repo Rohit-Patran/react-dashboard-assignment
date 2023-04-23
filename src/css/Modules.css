@@ -1,0 +1,23 @@
+#modules-items-tab{
+    background-color: rgba(142, 198, 255 , 0.2);
+    width: 10vw;
+}
+
+#modules-items-tab button{
+    background-color: transparent;
+}
+
+#modules-items-tab button:focus{
+    background-color: rgba(142, 198, 255 , 0.5);
+    color: black;
+}
+
+.module-content{
+    display: flex;
+    justify-items: center;
+}
+
+.topic{
+    padding: 0.1vw 1vw 0vw;
+    
+}

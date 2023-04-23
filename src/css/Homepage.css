@@ -1,0 +1,193 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user-info{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 0.5vw;
+}
+.user-info a{
+    text-decoration: none;
+}
+
+.content{
+    width: 100%;
+    background-color: rgba(163, 209, 254 , 0.2);
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: darkblue;
+    width: fit-content;
+    height: 100vh;
+    text-decoration: none;
+}
+
+nav button{
+    width: 100%;
+    height: 10vh;
+    font-weight: bold;
+    border: none;
+}
+
+nav button:focus{
+    background-color: darkblue;
+    color: lightgrey;
+}
+
+.pages{
+    padding-left: 10vw;
+}
+
+.upcoming-cert{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw;
+    align-items: center;
+    width: 70vw;
+    border-radius: 1vw;
+}
+
+.upcoming-cert img{
+    width: 10%;
+}
+.upcoming-cert button{
+    background: none;
+    border: dodgerblue solid 0.2vw;
+    border-radius: 1vw;
+    color: dodgerblue;
+    font-weight: bold;
+    padding: 0.2vw 0.5vw;
+}
+
+.upcoming-cert button:hover{
+    background: dodgerblue;
+    border: rgba(0 , 0 , 0 , 0.1) solid 0.2vw;
+    border-radius: 1vw;
+    color: white;
+    font-weight: bold;
+    padding: 0.2vw 0.5vw;
+}
+
+.title span:nth-child(1){
+    background-color: rgba(0, 0, 0, 0.1);
+    color : rgba(0 , 0 , 0 , 0.5);
+    font-weight: bold;
+    padding: 0vw 1vw;
+    border-radius: 0.2vw;
+}
+
+.title h3{
+    font-weight: lighter;
+    width: 10vw;
+}
+
+.title span:nth-last-child(1){
+    background-color: rgb(142, 198, 255);
+    padding: 0vw 2vw;
+    border-radius: 0.5vw;
+    color: rgba(0 , 0 , 0 , 0.5);
+    font-weight: bold;
+}
+
+.exam span{
+    display: flex;
+    align-items: center;
+}
+.round{
+    background-color: rgba(0 , 0 , 0 , 0.1);
+    border-radius: 1vw;
+    padding: 0.1vw 0.3vw;
+    margin: 0 0.4vw;
+    font-size: small;
+}
+
+.certifications{
+    width: 70vw;
+}
+
+.continue-learning-details{
+    padding: 0.5vw 1vw;
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 0 2vw;
+    border-radius: 1vw;
+}
+
+.progress span{
+    border: solid dodgerblue 0.1vw;
+    padding: 1vw 2vw 1vw 1vw;
+    border-radius: 0.5vw;
+    margin-bottom: 0.5vw;
+    font-weight: bold;
+}
+#view-progress{
+    color: dodgerblue;
+    border: none;
+    font-weight : bold;
+    padding-left: 0%;
+}
+.data-visualization{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5vw 2vw;
+    align-items: center;
+    background-color: white;
+    border-radius: 1vw;
+}
+.heading {
+    margin-left: 2vw;
+}
+.progress-content span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.today-plan{
+    margin-left: 2vw;
+}
+.today-plan h4:nth-child(1){
+    color: rgba(0 , 0 , 0 , 0.5);
+}
+.today-plan span{
+    color: rgba(0 , 0 , 0 , 0.5);
+}
+
+.today-plan span span:nth-last-child(1){
+    color: dodgerblue;
+}
+
+.today-plan h4{
+    color: dodgerblue;
+}
+
+.live-session{
+    background-color: rgba(0 , 0 , 0 , 0.2);
+    text-align: center;
+    border-radius: 2vw;
+    font-weight: bold;
+    color: rgba(0 , 0 , 0 , 0.5);
+    padding: 0.5vw 1vw;
+    margin: 0.5vw 0;
+}

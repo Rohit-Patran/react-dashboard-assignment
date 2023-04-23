@@ -1,0 +1,41 @@
+.dropdown-section{
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+.dropdown-button{
+    display: flex;
+    align-items: center;
+    width: 25vw;
+}
+
+.dropdown-button h3{
+    padding-left: 1vw;
+}
+
+.dropdown-content span{
+    display: flex;
+    justify-content: space-evenly;
+    width: 25vw;
+    align-items: center;
+}
+
+.dropdown-content span button{
+    background : none;
+    border: none;
+    color: whitesmoke;
+    margin-bottom: 1vh;
+    padding: 0.1vw 0.2vw;
+}
+.dropdown-content span button:focus{
+    background-color : whitesmoke;
+    border-radius: 0.2vw;
+    color: darkblue;
+}
+
+.dropdown-button button{
+    background: none;
+    border: none;
+    color: whitesmoke;
+}
+
